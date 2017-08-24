@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  color: white;
+}
+
+.App-header h1 {
+  display: inline-block;
+  margin: 25px 0;
+}
+
+.App-header img {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.avatar {
+  display: inline-block;
+}
+
+.avatar p {
+  display: inline;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#answer-list {
+  list-style: none;
+}
+
+.btn-warning {
+  margin-left: 15px;
+}
+
+.answer {
+  width: 100%;
+  padding-bottom:15px;
+}
+
+.user {
+  display: inline-block;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
